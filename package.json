@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js --username=your_username"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",

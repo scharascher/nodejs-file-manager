@@ -8,10 +8,14 @@ module.exports = {
   "plugins": [
     "prettier"
   ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
   "env": {
     "browser": true,
     "commonjs": true,
-    "es2021": true
+    "es2021": true,
   },
   rules: {
     'prettier/prettier': [
@@ -20,5 +24,6 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'no-process-exit': 0
   }
 }
